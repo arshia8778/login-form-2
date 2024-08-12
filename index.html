@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1885ed">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login Page</title>
+</head>
+
+<body>
+<!--ring div starts here-->
+<div class="ring">
+  <i style="--clr:#00ff0a;"></i>
+  <i style="--clr:#ff0057;"></i>
+  <i style="--clr:#fffd44;"></i>
+  <div class="login">
+    <h2>Login</h2>
+    <div class="inputBx">
+      <input type="text" placeholder="Email" id="email-input">
+      <div id="message"></div>
+    </div>
+    <div class="inputBx">
+      <input type="password" placeholder="Password" id="password-box">
+    </div>
+    <div class="inputBx">
+      <input type="submit" value="Sign in" id="login-btn">
+    </div>
+    <div class="links">
+      <a href="#">Forget Password</a>
+      <a href="#">Signup</a>
+    </div>
+  </div>
+</div>
+<!--ring div ends here-->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+</body>
+</html>
